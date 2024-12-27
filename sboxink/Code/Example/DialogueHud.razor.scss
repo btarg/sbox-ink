@@ -1,0 +1,48 @@
+DialogueHud {
+
+    pointer-events: all;
+
+    .background {
+        display: flex;
+        padding-bottom: 10%;
+        padding-left: 25vw;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .dialogue {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50vw;
+        height: 25vh;
+
+    }
+
+    .text {
+        font-size: 25px;
+        font-family: Poppins;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .button {
+        background-color: #f00;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+
+
+    .choices {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

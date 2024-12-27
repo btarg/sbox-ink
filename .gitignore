@@ -1,0 +1,4 @@
+*.meta
+*.cache
+sboxink/Code/obj/
+sboxink/UnitTests/

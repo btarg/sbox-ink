@@ -1,0 +1,13 @@
+{
+  "Title": "Ink for S\u0026box",
+  "Type": "library",
+  "Org": "btarg",
+  "Ident": "sboxink",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "IsWhitelistDisabled": false,
+  "Metadata": {}
+}

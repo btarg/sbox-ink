@@ -1,0 +1,195 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "actiongraph/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Base Editor Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/actiongraph.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/actiongraph.dll": {}
+        }
+      },
+      "Base Editor Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Base Editor Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Base Editor Library.dll": {}
+        }
+      },
+      "Base Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Base Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Base Library.dll": {}
+        }
+      },
+      "hammer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Base Editor Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/hammer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/hammer.dll": {}
+        }
+      },
+      "sboxink/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Base Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/sboxink.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sboxink.dll": {}
+        }
+      },
+      "shadergraph/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Base Editor Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/shadergraph.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/shadergraph.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "actiongraph/1.0.0": {
+      "type": "project",
+      "path": "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\ActionGraph\\Code\\actiongraph.csproj",
+      "msbuildProject": "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\ActionGraph\\Code\\actiongraph.csproj"
+    },
+    "Base Editor Library/1.0.0": {
+      "type": "project",
+      "path": "D:\\SteamLibrary\\steamapps\\common\\sbox\\addons\\tools\\Code\\Base Editor Library.csproj",
+      "msbuildProject": "D:\\SteamLibrary\\steamapps\\common\\sbox\\addons\\tools\\Code\\Base Editor Library.csproj"
+    },
+    "Base Library/1.0.0": {
+      "type": "project",
+      "path": "D:\\SteamLibrary\\steamapps\\common\\sbox\\addons\\base\\Code\\Base Library.csproj",
+      "msbuildProject": "D:\\SteamLibrary\\steamapps\\common\\sbox\\addons\\base\\Code\\Base Library.csproj"
+    },
+    "hammer/1.0.0": {
+      "type": "project",
+      "path": "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\Hammer\\Code\\hammer.csproj",
+      "msbuildProject": "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\Hammer\\Code\\hammer.csproj"
+    },
+    "sboxink/1.0.0": {
+      "type": "project",
+      "path": "../Code/sboxink.csproj",
+      "msbuildProject": "../Code/sboxink.csproj"
+    },
+    "shadergraph/1.0.0": {
+      "type": "project",
+      "path": "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\ShaderGraph\\Code\\shadergraph.csproj",
+      "msbuildProject": "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\ShaderGraph\\Code\\shadergraph.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Base Editor Library >= 1.0.0",
+      "actiongraph >= 1.0.0",
+      "hammer >= 1.0.0",
+      "sboxink >= 1.0.0",
+      "shadergraph >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\BenTa\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\BenTa\\Documents\\s&box projects\\my_project\\Libraries\\sboxink\\Editor\\sboxink.editor.csproj",
+      "projectName": "sboxink.editor",
+      "projectPath": "C:\\Users\\BenTa\\Documents\\s&box projects\\my_project\\Libraries\\sboxink\\Editor\\sboxink.editor.csproj",
+      "packagesPath": "C:\\Users\\BenTa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BenTa\\Documents\\s&box projects\\my_project\\Libraries\\sboxink\\Editor\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\BenTa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\BenTa\\Documents\\s&box projects\\my_project\\Libraries\\sboxink\\Code\\sboxink.csproj": {
+              "projectPath": "C:\\Users\\BenTa\\Documents\\s&box projects\\my_project\\Libraries\\sboxink\\Code\\sboxink.csproj"
+            },
+            "D:\\SteamLibrary\\steamapps\\common\\sbox\\addons\\tools\\Code\\Base Editor Library.csproj": {
+              "projectPath": "D:\\SteamLibrary\\steamapps\\common\\sbox\\addons\\tools\\Code\\Base Editor Library.csproj"
+            },
+            "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\ActionGraph\\Code\\actiongraph.csproj": {
+              "projectPath": "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\ActionGraph\\Code\\actiongraph.csproj"
+            },
+            "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\Hammer\\Code\\hammer.csproj": {
+              "projectPath": "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\Hammer\\Code\\hammer.csproj"
+            },
+            "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\ShaderGraph\\Code\\shadergraph.csproj": {
+              "projectPath": "D:\\SteamLibrary\\steamapps\\common\\sbox\\editor\\ShaderGraph\\Code\\shadergraph.csproj"
+            }
+          }
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

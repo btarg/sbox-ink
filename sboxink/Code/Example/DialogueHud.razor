@@ -1,0 +1,38 @@
+@using Sandbox;
+@using Sandbox.UI;
+@using Ink.Runtime;
+
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+    @if (DialogueComponent.IsPlayingDialogue)
+    {
+        <div class="background" onclick=@(() => DialogueComponent.Continue())>
+            <div class="dialogue">
+                <div class="text">
+                    @DialogueComponent.CurrentText
+                </div>
+                @if (DialogueComponent.CurrentTags.Contains("ending"))
+                {
+                    <button onclick=@(() => DialogueComponent.StartDialogue())>Start Again!</button>
+                    <button onclick=@(() => DialogueComponent.EndDialogue())>End</button>
+                }
+
+                <div class="choices">
+                    @foreach (var choice in DialogueComponent.CurrentChoices)
+                    {
+                        <button onclick=@(() => DialogueComponent.MakeChoice(choice.index))>@choice.text</button>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    
+</root>
+
+@code
+{
+    [Property] DialogueComponent DialogueComponent { get; set; }
+    protected override int BuildHash() => System.HashCode.Combine(DialogueComponent.CurrentText, DialogueComponent.CurrentChoices, DialogueComponent.CurrentTags);
+}
